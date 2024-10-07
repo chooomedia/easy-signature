@@ -1,0 +1,55 @@
+# Copyright (C) 2023 Christopher Matt
+# This file is distributed under the same license as the Easy Signature plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Signature 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/easy-signature\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-10-07T12:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: easy-signature\n"
+
+#. Plugin Name of the plugin
+msgid "Easy Signature"
+msgstr ""
+
+#. Description of the plugin
+msgid "Ein Plugin zur Erstellung anpassbarer Mitarbeitersignaturen"
+msgstr ""
+
+#. Author of the plugin
+msgid "Christopher Matt"
+msgstr ""
+
+#: includes/class-easy-signature.php:29
+msgid "Signaturen"
+msgstr ""
+
+#: includes/class-easy-signature.php:46
+msgid "Signatur-Einstellungen"
+msgstr ""
+
+#: includes/class-easy-signature.php:47
+msgid "Einstellungen"
+msgstr ""
+
+#: includes/class-easy-signature.php:58
+msgid "Signatur-Details"
+msgstr ""
+
+#: includes/class-easy-signature.php:87
+msgid "Easy Signature Alpha-Version"
+msgstr ""
+
+#: includes/class-easy-signature.php:88
+msgid "Dies ist eine Alpha-Version von Easy Signature. In der kommenden PRO-Version werden Bilder mittels Data URI gerendert und benutzerdefinierte Schriftarten unterstützt."
+msgstr ""
+
+#: includes/class-easy-signature.php:89
+msgid "Mehr erfahren"
+msgstr ""

@@ -1,0 +1,181 @@
+/* Easy Signature Public Styles */
+
+/* Basis-Reset und Variablen */
+:root {
+    --easy-signature-primary-color: #3498db;
+    --easy-signature-secondary-color: #2c3e50;
+    --easy-signature-text-color: #333333;
+    --easy-signature-background-color: #ffffff;
+    --easy-signature-border-color: #e0e0e0;
+    --easy-signature-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  }
+  
+  .easy-signature {
+    font-family: var(--easy-signature-font-family);
+    color: var(--easy-signature-text-color);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .easy-signature *,
+  .easy-signature *:before,
+  .easy-signature *:after {
+    box-sizing: inherit;
+  }
+  
+  /* Container */
+  .easy-signature-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--easy-signature-background-color);
+    border: 1px solid var(--easy-signature-border-color);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header */
+  .easy-signature-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .easy-signature-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+    object-fit: cover;
+  }
+  
+  .easy-signature-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--easy-signature-secondary-color);
+    margin: 0;
+  }
+  
+  .easy-signature-title {
+    font-size: 0.9em;
+    color: var(--easy-signature-primary-color);
+    margin: 5px 0 0 0;
+  }
+  
+  /* Kontaktinformationen */
+  .easy-signature-contact {
+    margin-bottom: 15px;
+  }
+  
+  .easy-signature-contact p {
+    margin: 5px 0;
+    font-size: 0.9em;
+  }
+  
+  .easy-signature-contact a {
+    color: var(--easy-signature-primary-color);
+    text-decoration: none;
+  }
+  
+  .easy-signature-contact a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Social Media Icons */
+  .easy-signature-social {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .easy-signature-social a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: var(--easy-signature-primary-color);
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .easy-signature-social a:hover {
+    background-color: var(--easy-signature-secondary-color);
+  }
+  
+  /* Logo */
+  .easy-signature-logo {
+    max-width: 150px;
+    height: auto;
+    margin-top: 15px;
+  }
+  
+  /* Trennlinie */
+  .easy-signature-divider {
+    border: 0;
+    border-top: 1px solid var(--easy-signature-border-color);
+    margin: 15px 0;
+  }
+  
+  /* Zusätzlicher Text */
+  .easy-signature-additional {
+    font-size: 0.9em;
+    font-style: italic;
+    color: var(--easy-signature-secondary-color);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    .easy-signature-container {
+      padding: 15px;
+    }
+  
+    .easy-signature-header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .easy-signature-avatar {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .easy-signature-social {
+      justify-content: center;
+    }
+  }
+  
+  /* Utility-Klassen */
+  .easy-signature-text-center {
+    text-align: center;
+  }
+  
+  .easy-signature-mt-10 {
+    margin-top: 10px;
+  }
+  
+  .easy-signature-mb-10 {
+    margin-bottom: 10px;
+  }
+  
+  /* Barrierefreiheit */
+  .easy-signature a:focus,
+  .easy-signature button:focus {
+    outline: 2px solid var(--easy-signature-primary-color);
+    outline-offset: 2px;
+  }
+  
+  /* Print-Styles */
+  @media print {
+    .easy-signature-container {
+      box-shadow: none;
+      border: none;
+    }
+  
+    .easy-signature-social a {
+      border: 1px solid var(--easy-signature-primary-color);
+    }
+  }

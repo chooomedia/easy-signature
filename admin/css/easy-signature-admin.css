@@ -1,0 +1,182 @@
+/* Easy Signature Admin Styles */
+
+/* Reset und Basis-Styles */
+.easy-signature-admin {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    color: #1a202c;
+    line-height: 1.5;
+}
+
+.easy-signature-admin * {
+    box-sizing: border-box;
+}
+
+/* Container */
+.easy-signature-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* Typografie */
+.easy-signature-title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #2d3748;
+}
+
+.easy-signature-subtitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: #4a5568;
+}
+
+.easy-signature-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Buttons */
+.easy-signature-button {
+    display: inline-block;
+    background-color: #4299e1;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.easy-signature-button:hover {
+    background-color: #3182ce;
+}
+
+.easy-signature-button-secondary {
+    background-color: #cbd5e0;
+    color: #2d3748;
+}
+
+.easy-signature-button-secondary:hover {
+    background-color: #a0aec0;
+}
+
+/* Formulare */
+.easy-signature-form {
+    margin-bottom: 2rem;
+}
+
+.easy-signature-form-group {
+    margin-bottom: 1rem;
+}
+
+.easy-signature-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.easy-signature-input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+}
+
+.easy-signature-input:focus {
+    outline: none;
+    border-color: #4299e1;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+/* Tabellen */
+.easy-signature-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+.easy-signature-table th,
+.easy-signature-table td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #e2e8f0;
+    text-align: left;
+}
+
+.easy-signature-table th {
+    background-color: #f7fafc;
+    font-weight: 600;
+}
+
+/* Karten */
+.easy-signature-card {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Alerts */
+.easy-signature-alert {
+    padding: 1rem;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+.easy-signature-alert-info {
+    background-color: #ebf8ff;
+    border: 1px solid #4299e1;
+    color: #2b6cb0;
+}
+
+.easy-signature-alert-success {
+    background-color: #f0fff4;
+    border: 1px solid #48bb78;
+    color: #2f855a;
+}
+
+.easy-signature-alert-warning {
+    background-color: #fffaf0;
+    border: 1px solid #ed8936;
+    color: #c05621;
+}
+
+.easy-signature-alert-error {
+    background-color: #fff5f5;
+    border: 1px solid #f56565;
+    color: #c53030;
+}
+
+/* Utilities */
+.easy-signature-mt-4 { margin-top: 1rem; }
+.easy-signature-mb-4 { margin-bottom: 1rem; }
+.easy-signature-ml-4 { margin-left: 1rem; }
+.easy-signature-mr-4 { margin-right: 1rem; }
+
+.easy-signature-flex { display: flex; }
+.easy-signature-items-center { align-items: center; }
+.easy-signature-justify-between { justify-content: space-between; }
+
+.easy-signature-grid { display: grid; }
+.easy-signature-grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.easy-signature-gap-4 { gap: 1rem; }
+
+.easy-signature-text-center { text-align: center; }
+.easy-signature-text-right { text-align: right; }
+
+.easy-signature-font-bold { font-weight: 700; }
+.easy-signature-text-sm { font-size: 0.875rem; }
+.easy-signature-text-lg { font-size: 1.125rem; }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .easy-signature-grid-cols-2 {
+        grid-template-columns: 1fr;
+    }
+}
